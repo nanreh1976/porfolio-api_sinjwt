@@ -43,7 +43,7 @@ public class LaboralService {
     //}
     public boolean delete(int id) {
         try {
-            laboralRepo.deleteById(id); // me lo marca con error
+            expeRepo.deleteById(id); // me lo marca con error
             return true;
         } catch(Exception err){
             return false;
